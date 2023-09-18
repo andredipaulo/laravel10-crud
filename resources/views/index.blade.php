@@ -17,7 +17,7 @@
     <link rel="icon" href="{{ asset('icones/favicon-16x16.png') }}" sizes="16x16" type="image/png">
     <link rel="manifest" href="{{ asset('icones/manifest.json') }}">
     <link rel="mask-icon" href="{{ asset('icones/safari-pinned-tab.svg') }}" color="#712cf9">
-    <link rel="icon" href="{{ asset('icones/favicon.ico') }}">
+{{--    <link rel="icon" href="{{ asset('icones/favicon.ico') }}">--}}
     <meta name="theme-color" content="#712cf9">
 
 
