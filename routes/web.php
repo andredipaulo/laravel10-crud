@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ClientesController;
 use App\Http\Controllers\ProdutosController;
 use Illuminate\Support\Facades\Route;
 
@@ -26,3 +27,5 @@ Route::prefix('produtos')->group( function () {
     Route::put('/update/{id}', [ProdutosController::class, 'update'] )->name('produto.atualizar');
     Route::delete('/destroy', [ProdutosController::class, 'destroy'] )->name('produto.destroy');
 });
+
+Route::resource('clientes', ClientesController::class);
