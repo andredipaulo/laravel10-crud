@@ -15,10 +15,10 @@ return new class extends Migration
             $table->id();
             $table->string('nome');
             $table->string('email');
-            $table->string('logradouro');
-            $table->string('endereco');
-            $table->string('bairro');
-            $table->string('cep');
+            $table->string('logradouro')->nullable();
+            $table->string('endereco')->nullable();
+            $table->string('bairro')->nullable();
+            $table->string('cep')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });

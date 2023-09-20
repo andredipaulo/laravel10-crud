@@ -28,10 +28,10 @@ class ClienteFormRequest extends FormRequest
             return [
                 'nome' => 'required',
                 'email' => 'required',
-                'logradouro' => 'required',
-                'endereco' => 'required',
-                'cep' => 'required',
-                'bairro' => 'required',
+                'logradouro' => '',
+                'endereco' => '',
+                'cep' => '',
+                'bairro' => '',
             ];
         }
         return [];
